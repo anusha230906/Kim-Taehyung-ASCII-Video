@@ -1,68 +1,56 @@
-<div align="center">
+# 💜 Kim Taehyung – ASCII Art Project
 
-# 💜 Taehyung ASCII Video Art
+A little coding project inspired by Kim Taehyung!
 
-**every frame of a video, rebuilt out of letters and symbols instead of pixels**
+This project explores the creative side of Python by turning visual content into an artistic representation using text characters and symbols.
 
-![preview](preview.gif)
+## 🌸 About the Project
 
-</div>
+This is a fun Python project created with inspiration from BTS's Kim Taehyung (V).
 
----
+The idea is to combine programming and creativity to create something visually interesting using Python.
 
-### ✨ what is this?
-A small coding art project that turns **any video** into ASCII art.
-You give it a video, it converts every frame into characters,
-and the whole clip plays back as moving text.
+## 💻 Technologies Used
 
-I made this one as a Taehyung edit 💜, but it works with **any video you
-import**: your own clips, a travel video, a dance, anything.
+- Python
+- ASCII characters and symbols
 
-### 🎬 how it works
-1. 🎞️ the video is read frame by frame
-2. 🌗 each frame is converted to grayscale (light and dark values)
-3. 🔤 every small block of pixels becomes one character:
-   dark areas get dense characters, light areas get lighter ones
-4. 🖥️ the characters are put together as new frames and played back as a video
+## 📂 Project Files
 
-### 🛠️ built with
-- [Python]
-- [library for reading video, e.g. OpenCV]
-- [library for images and output, e.g. Pillow / NumPy]
+| File | Description |
+|---|---|
+| `tae.py` | Main Python program |
+| `photo.jpg` | Image used in the project |
 
-### 🚀 how to use
+## 🚀 Getting Started
+
+Follow these steps to run the project on your computer.
+
+**1. Clone the repository**
 
 ```bash
-# 1. clone this repo
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-
-# 2. install the requirements
-pip install -r requirements.txt
-
-# 3. run it on your own video
-python [your_script.py] [your_video_file]
+git clone https://github.com/anusha230906/Kim-Taehyung-ASCII-Video.git
 ```
 
-Your converted video is saved in: `[output folder or file name]`
+**2. Open the project folder**
 
-### 🎛️ things you can change
-- [character set, e.g. dense or simple]
-- [output width: more characters means more detail]
-- [black and white or colour output]
+```bash
+cd Kim-Taehyung-ASCII-Video
+```
 
-*(keep only what your code really supports)*
+**3. Run the Python file**
 
-### 📸 examples
-| video | result |
-|---|---|
-| Taehyung 💜 | ![taehyung](examples/taehyung.gif) |
-| [add another] | ![example](examples/example2.gif) |
+```bash
+python tae.py
+```
 
-### 📝 note
-This is a fan-made art project for learning and fun, and it isn't
-affiliated with or endorsed by anyone shown in the examples. Videos belong
-to their owners, so I haven't included any original footage in this repo.
-Please only convert videos you have the right to use.
+## 💜 Inspiration
+
+Inspired by Kim Taehyung (V) and the idea of bringing art and programming together.
+
+This project was made for learning, creativity, and experimentation.
 
 ---
+
+*Made with Python and a little bit of purple love 💜*
+
